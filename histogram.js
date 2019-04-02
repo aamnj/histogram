@@ -12,7 +12,7 @@ var bucketSize = data.split("\n")[1]
  */
 function histogram(arr, bucketSize) {
   var maxInArray   = Math.max.apply(Math, arr);
-  var totalBuckets = Math.round(maxInArray / bucketSize) + 1
+  var totalBuckets = Math.ceil(maxInArray / bucketSize)
   var result       = []
 
   for (var i = 0; i < totalBuckets; i++) {
