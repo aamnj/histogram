@@ -1,0 +1,15 @@
+{
+  "name": "cleartax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "histogram.js",
+  "scripts": {
+    "start": "node ./histogram.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
